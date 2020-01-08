@@ -9,6 +9,7 @@
 namespace App\Controller;
 use App\Entity\Ad;
 use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Common\Persistence\ManagerRegistry;
 use Symfony\Component\Routing;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -20,7 +21,7 @@ class AdIncrementationController
      */
     private $manager;
 
-    public function __construct(ObjectManager $manager)
+    public function __construct(ManagerRegistry $manager)
     {
         $this->manager = $manager;
     }
