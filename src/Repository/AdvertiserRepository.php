@@ -5,6 +5,7 @@ namespace App\Repository;
 use App\Entity\Advertiser;
 use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
  * @method Advertiser|null find($id, $lockMode = null, $lockVersion = null)
