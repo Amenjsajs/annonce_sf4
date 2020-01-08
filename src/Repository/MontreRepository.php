@@ -3,7 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Montre;
-use Doctrine\Persistence\ManagerRegistry
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
